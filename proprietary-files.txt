@@ -60,6 +60,15 @@ vendor/lib/libmmhardware.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
+# Audio (Configs)
+vendor/etc/audio_configs.xml
+vendor/etc/audio_configs_stock.xml
+vendor/etc/audio_platform_info_qrd.xml
+vendor/etc/audio_policy_engine_configuration.xml
+vendor/etc/audio_policy_engine_default_stream_volumes.xml
+vendor/etc/audio_policy_engine_product_strategies_mi.xml:vendor/etc/audio_policy_engine_product_strategies.xml
+vendor/etc/audio_policy_engine_stream_volumes_mi.xml:vendor/etc/audio_policy_engine_stream_volumes.xml
+
 # Audio (Firmware)
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
 vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
