@@ -1,0 +1,43 @@
+[
+    {
+        "repository": "vendor_xiaomi_alioth",
+        "target_path": "vendor/xiaomi/alioth"   
+    },
+    {
+        "repository": "vendor_xiaomi_sm8250-common",
+        "target_path": "vendor/xiaomi/sm8250-common"       
+    },
+    {
+        "repository": "device_xiaomi_sm8250-common",
+        "target_path": "device/xiaomi/sm8250-common"     
+    },
+    {
+        "repository": "kernel_xiaomi_alioth",
+        "target_path": "kernel/xiaomi/alioth",
+        "branch": "staging"
+    },
+    {
+        "repository": "hardware_xiaomi",
+        "target_path": "hardware/xiaomi",
+        "branch": "alioth"
+    },
+    {
+        "repository": "android_packages_resources_devicesettings",
+        "target_path": "packages/resources/devicesettings",
+        "branch": "alioth"
+    },
+    {
+       	"repository": "Chaitanyakm/alioth-camera",
+       	"target_path": "vendor/xiaomi/camera",
+       	"branch":"master",
+       	"remote":"gitlab"
+    },
+    {
+       	"repository": "Chaitanyakm/vendor_bcr",
+       	"target_path": "vendor/bcr",
+       	"branch": "main",
+       	"remote": "github"
+    }
+
+    
+]
